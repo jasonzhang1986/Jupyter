@@ -1,0 +1,509 @@
+/Users/zhangjifeng/Documents/python/Jupyter/统计/calc.py:10: UserWarning: Boolean Series key will be reindexed to match DataFrame index.
+  df_android = df_android[df['device_id']==device_id]
+/Users/zhangjifeng/Documents/python/Jupyter/统计/calc.py:11: UserWarning: Boolean Series key will be reindexed to match DataFrame index.
+  df_android = df_android[df['app_version']=='1.1.3']
+Empty DataFrame
+Columns: [device_id, tag, page, op, udid, stamp]
+Index: []
+-----------------
+Empty DataFrame
+Columns: [device_id, tag, page, op, udid, stamp]
+Index: []
+-----------------
+Empty DataFrame
+Columns: [device_id, tag, page, op, udid, stamp]
+Index: []
+-----------------
+Empty DataFrame
+Columns: [device_id, tag, page, op, udid, stamp]
+Index: []
+-----------------
+                                      device_id          tag     page    op  \
+15606  04f52edb9f8e0c501089d16d8834e23fb6e45e35  app_startup  tr_init  auto   
+
+       udid                stamp  
+15606   NaN  2018-06-03 13:19:18  
+-----------------
+                                      device_id          tag     page    op  \
+17391  05d5a35676accd83ce77a802b8cb5adc5d037775  app_startup  tr_init  auto   
+
+       udid                stamp  
+17391   NaN  2018-06-03 14:18:46  
+-----------------
+                                      device_id          tag     page    op  \
+14594  06d5fc616faa29152dc46878378d9ba0ed803ccf  app_startup  tr_init  auto   
+
+       udid                stamp  
+14594   NaN  2018-06-03 12:31:01  
+-----------------
+                                      device_id                     tag  \
+14844  06f247fe4984d007020cf6fa4fcf7dcf410dba3b             app_startup   
+14852  06f247fe4984d007020cf6fa4fcf7dcf410dba3b  click_connection_intro   
+14861  06f247fe4984d007020cf6fa4fcf7dcf410dba3b  click_connection_intro   
+
+          page     op  udid                stamp  
+14844  tr_init   auto   NaN  2018-06-03 12:40:00  
+14852  tr_home  click   NaN  2018-06-03 12:40:18  
+14861  tr_home  click   NaN  2018-06-03 12:40:38  
+-----------------
+Empty DataFrame
+Columns: [device_id, tag, page, op, udid, stamp]
+Index: []
+-----------------
+Empty DataFrame
+Columns: [device_id, tag, page, op, udid, stamp]
+Index: []
+-----------------
+                                      device_id          tag     page    op  \
+11677  1502777dbf8e92c0f6d2b04576ce6feb581c1d90  app_startup  tr_init  auto   
+
+       udid                stamp  
+11677   NaN  2018-06-03 10:36:00  
+-----------------
+                                    device_id          tag     page    op  \
+460  190613a40016e7ee24754c2e85e06013e19e4ffb  app_startup  tr_init  auto   
+
+     udid                stamp  
+460   NaN  2018-06-02 17:25:18  
+-----------------
+                                      device_id                       tag  \
+18152  1b1907f472daf7654ed42d9f9fafd3825f16bd0a         click_record_item   
+18153  1b1907f472daf7654ed42d9f9fafd3825f16bd0a  click_synctranlsate_item   
+
+          page     op  udid                stamp  
+18152  tr_home  click   NaN  2018-06-03 15:44:54  
+18153  tr_home  click   NaN  2018-06-03 15:44:58  
+-----------------
+                                    device_id          tag     page    op  \
+390  1b471387fc45555effbecdc0d2363898834486a4  app_startup  tr_init  auto   
+
+     udid                stamp  
+390   NaN  2018-06-02 16:56:50  
+-----------------
+                                      device_id          tag     page    op  \
+15838  1b847bfc4b4d1a1f98f359e00bc6aa249fa8a960  app_startup  tr_init  auto   
+
+       udid                stamp  
+15838   NaN  2018-06-03 13:26:20  
+-----------------
+Empty DataFrame
+Columns: [device_id, tag, page, op, udid, stamp]
+Index: []
+-----------------
+                                     device_id          tag     page    op  \
+9472  2807f4005a1b8ee40b8a694e9f1bd20fe16dae71  app_startup  tr_init  auto   
+
+      udid                stamp  
+9472   NaN  2018-06-03 09:39:14  
+-----------------
+                                     device_id                     tag  \
+5781  29054617c58453f4b98ee115ea44b58d405ad598             app_startup   
+5782  29054617c58453f4b98ee115ea44b58d405ad598  click_translate_dialog   
+
+         page     op  udid                stamp  
+5781  tr_init   auto   NaN  2018-06-03 05:25:03  
+5782  tr_home  click   NaN  2018-06-03 05:25:09  
+-----------------
+Empty DataFrame
+Columns: [device_id, tag, page, op, udid, stamp]
+Index: []
+-----------------
+Empty DataFrame
+Columns: [device_id, tag, page, op, udid, stamp]
+Index: []
+-----------------
+Empty DataFrame
+Columns: [device_id, tag, page, op, udid, stamp]
+Index: []
+-----------------
+                                     device_id                     tag  \
+1531  3aed69c2838621c53ccb31ca77fc547066e29b1f             app_startup   
+1532  3aed69c2838621c53ccb31ca77fc547066e29b1f  click_translate_dialog   
+1534  3aed69c2838621c53ccb31ca77fc547066e29b1f    trapp_start_dialog_B   
+1536  3aed69c2838621c53ccb31ca77fc547066e29b1f    trapp_start_dialog_B   
+1537  3aed69c2838621c53ccb31ca77fc547066e29b1f    trapp_start_dialog_B   
+
+                     page     op  udid                stamp  
+1531              tr_init   auto   NaN  2018-06-03 01:11:13  
+1532              tr_home  click   NaN  2018-06-03 01:11:17  
+1534  tr_translate_dialog  click   NaN  2018-06-03 01:11:21  
+1536  tr_translate_dialog  click   NaN  2018-06-03 01:11:23  
+1537  tr_translate_dialog  click   NaN  2018-06-03 01:11:29  
+-----------------
+Empty DataFrame
+Columns: [device_id, tag, page, op, udid, stamp]
+Index: []
+-----------------
+Empty DataFrame
+Columns: [device_id, tag, page, op, udid, stamp]
+Index: []
+-----------------
+                                     device_id          tag     page    op  \
+8262  42cc9ac3bcde11867acad5780a285228e9049c7f  app_startup  tr_init  auto   
+
+      udid                stamp  
+8262   NaN  2018-06-03 08:39:32  
+-----------------
+Empty DataFrame
+Columns: [device_id, tag, page, op, udid, stamp]
+Index: []
+-----------------
+Empty DataFrame
+Columns: [device_id, tag, page, op, udid, stamp]
+Index: []
+-----------------
+                                      device_id          tag     page    op  \
+16570  496d7d45264a2a7fdfb104c4fe12efda389f7e0a  app_startup  tr_init  auto   
+
+       udid                stamp  
+16570   NaN  2018-06-03 13:58:00  
+-----------------
+Empty DataFrame
+Columns: [device_id, tag, page, op, udid, stamp]
+Index: []
+-----------------
+                                      device_id          tag     page    op  \
+16417  5143a7a26cd5b4fd47c758106b80276324b6f9e1  app_startup  tr_init  auto   
+
+       udid                stamp  
+16417   NaN  2018-06-03 13:48:43  
+-----------------
+Empty DataFrame
+Columns: [device_id, tag, page, op, udid, stamp]
+Index: []
+-----------------
+                                      device_id          tag     page    op  \
+16737  5476aff5312b258d1e85bddd5b41951740a1aa5f  app_startup  tr_init  auto   
+
+       udid                stamp  
+16737   NaN  2018-06-03 14:03:44  
+-----------------
+Empty DataFrame
+Columns: [device_id, tag, page, op, udid, stamp]
+Index: []
+-----------------
+Empty DataFrame
+Columns: [device_id, tag, page, op, udid, stamp]
+Index: []
+-----------------
+                                      device_id          tag     page    op  \
+16291  61de6d22c540873ad3aea45c836cd1f8eadd6efa  app_startup  tr_init  auto   
+
+       udid                stamp  
+16291   NaN  2018-06-03 13:43:29  
+-----------------
+                                      device_id          tag     page    op  \
+13043  69985a0018b10cb1462f9d1cbf7d72768957cdcd  app_startup  tr_init  auto   
+
+       udid                stamp  
+13043   NaN  2018-06-03 11:44:38  
+-----------------
+Empty DataFrame
+Columns: [device_id, tag, page, op, udid, stamp]
+Index: []
+-----------------
+Empty DataFrame
+Columns: [device_id, tag, page, op, udid, stamp]
+Index: []
+-----------------
+                                     device_id          tag     page    op  \
+3931  72056ae00c53ffcb0eb8bc87ad72ddc6dc43c9c9  app_startup  tr_init  auto   
+
+      udid                stamp  
+3931   NaN  2018-06-03 03:55:01  
+-----------------
+                                    device_id          tag     page    op  \
+809  727ca45fe16a7d79cdd48a5abdb3486bccb971ef  app_startup  tr_init  auto   
+
+     udid                stamp  
+809   NaN  2018-06-02 22:42:18  
+-----------------
+                                     device_id                       tag  \
+6607  7298d1175d758e4020841d6d202ea6e61be0f870  click_synctranlsate_item   
+6609  7298d1175d758e4020841d6d202ea6e61be0f870  click_synctranlsate_item   
+
+         page     op  udid                stamp  
+6607  tr_home  click   NaN  2018-06-03 06:21:23  
+6609  tr_home  click   NaN  2018-06-03 06:22:03  
+-----------------
+                                      device_id          tag     page    op  \
+14666  75065afc2c235f96cd1eeaa675395acffd53c724  app_startup  tr_init  auto   
+
+       udid                stamp  
+14666   NaN  2018-06-03 12:35:16  
+-----------------
+                                    device_id          tag     page    op  \
+967  7dd07aedb0ea622b368fc9e812548c2cf6d29849  app_startup  tr_init  auto   
+
+     udid                stamp  
+967   NaN  2018-06-02 23:10:36  
+-----------------
+                                     device_id                tag     page  \
+8090  7ecdd0400b8ffe362bf4047aa02c97f26a08c9e2        app_startup  tr_init   
+8091  7ecdd0400b8ffe362bf4047aa02c97f26a08c9e2  click_app_setting  tr_home   
+
+         op  udid                stamp  
+8090   auto   NaN  2018-06-03 08:25:16  
+8091  click   NaN  2018-06-03 08:25:20  
+-----------------
+Empty DataFrame
+Columns: [device_id, tag, page, op, udid, stamp]
+Index: []
+-----------------
+                                      device_id                tag  \
+16079  820b889450e2cc6fda32ee761b113bfc9136f941        app_startup   
+16083  820b889450e2cc6fda32ee761b113bfc9136f941  click_app_setting   
+
+                page     op  udid                stamp  
+16079        tr_init   auto   NaN  2018-06-03 13:34:56  
+16083  tr_other_page  click   NaN  2018-06-03 13:35:02  
+-----------------
+                                     device_id          tag     page    op  \
+7752  89c0cbfa0ffdba0aa37301098e92eae2b66b86e5  app_startup  tr_init  auto   
+
+      udid                stamp  
+7752   NaN  2018-06-03 07:55:09  
+-----------------
+Empty DataFrame
+Columns: [device_id, tag, page, op, udid, stamp]
+Index: []
+-----------------
+Empty DataFrame
+Columns: [device_id, tag, page, op, udid, stamp]
+Index: []
+-----------------
+Empty DataFrame
+Columns: [device_id, tag, page, op, udid, stamp]
+Index: []
+-----------------
+Empty DataFrame
+Columns: [device_id, tag, page, op, udid, stamp]
+Index: []
+-----------------
+                                    device_id          tag     page    op  \
+201  9af7a524b6ea44ed3f272d1b0ef6766b423a1a12  app_startup  tr_init  auto   
+
+     udid                stamp  
+201   NaN  2018-06-02 16:31:17  
+-----------------
+                                     device_id                    tag  \
+8518  9d570ed63bd474199a0f8244983f38f5cb92335a            app_startup   
+8563  9d570ed63bd474199a0f8244983f38f5cb92335a  connection_successful   
+
+         page    op  udid                stamp  
+8518  tr_init  auto   NaN  2018-06-03 08:51:20  
+8563  tr_init  auto   NaN  2018-06-03 08:53:00  
+-----------------
+Empty DataFrame
+Columns: [device_id, tag, page, op, udid, stamp]
+Index: []
+-----------------
+Empty DataFrame
+Columns: [device_id, tag, page, op, udid, stamp]
+Index: []
+-----------------
+Empty DataFrame
+Columns: [device_id, tag, page, op, udid, stamp]
+Index: []
+-----------------
+                                      device_id          tag     page    op  \
+15454  ae69f92909e304dc120ed29b59211912d8b458e9  app_startup  tr_init  auto   
+
+       udid                stamp  
+15454   NaN  2018-06-03 13:07:59  
+-----------------
+Empty DataFrame
+Columns: [device_id, tag, page, op, udid, stamp]
+Index: []
+-----------------
+                                     device_id          tag     page    op  \
+6823  b43433a60b14cf3f24071f067d1900532ea881dd  app_startup  tr_init  auto   
+
+      udid                stamp  
+6823   NaN  2018-06-03 06:40:45  
+-----------------
+Empty DataFrame
+Columns: [device_id, tag, page, op, udid, stamp]
+Index: []
+-----------------
+Empty DataFrame
+Columns: [device_id, tag, page, op, udid, stamp]
+Index: []
+-----------------
+Empty DataFrame
+Columns: [device_id, tag, page, op, udid, stamp]
+Index: []
+-----------------
+                                     device_id          tag     page    op  \
+6488  c08a1c00ea0aa1f0e1a315d8fd0e4cabff8b26ef  app_startup  tr_init  auto   
+
+      udid                stamp  
+6488   NaN  2018-06-03 06:05:38  
+-----------------
+                                     device_id          tag     page    op  \
+2883  c576ab056374f6e9fd7a926c25bbc6ecac902a1f  app_startup  tr_init  auto   
+
+      udid                stamp  
+2883   NaN  2018-06-03 02:52:08  
+-----------------
+                                      device_id          tag     page    op  \
+11428  ce8809e0a5277d76aa79a3bf14169784f9858d83  app_startup  tr_init  auto   
+
+       udid                stamp  
+11428   NaN  2018-06-03 10:25:45  
+-----------------
+Empty DataFrame
+Columns: [device_id, tag, page, op, udid, stamp]
+Index: []
+-----------------
+                                      device_id          tag     page    op  \
+18040  d08e153ebe08922fae7600840589f0fecb4c37f2  app_startup  tr_init  auto   
+
+       udid                stamp  
+18040   NaN  2018-06-03 15:05:40  
+-----------------
+                                     device_id          tag     page    op  \
+5118  d18ec60c73ad38c76f8845cbf3975f888edbb937  app_startup  tr_init  auto   
+
+      udid                stamp  
+5118   NaN  2018-06-03 04:52:01  
+-----------------
+Empty DataFrame
+Columns: [device_id, tag, page, op, udid, stamp]
+Index: []
+-----------------
+Empty DataFrame
+Columns: [device_id, tag, page, op, udid, stamp]
+Index: []
+-----------------
+                                     device_id                     tag  \
+6548  da8b02aba85e1dd3a9006a3ee42af0ed61a0897c  click_translate_dialog   
+6549  da8b02aba85e1dd3a9006a3ee42af0ed61a0897c    trapp_start_dialog_A   
+6550  da8b02aba85e1dd3a9006a3ee42af0ed61a0897c    trapp_start_dialog_A   
+6553  da8b02aba85e1dd3a9006a3ee42af0ed61a0897c    trapp_start_dialog_A   
+6554  da8b02aba85e1dd3a9006a3ee42af0ed61a0897c    trapp_start_dialog_A   
+6557  da8b02aba85e1dd3a9006a3ee42af0ed61a0897c    trapp_start_dialog_A   
+6559  da8b02aba85e1dd3a9006a3ee42af0ed61a0897c    trapp_start_dialog_A   
+6560  da8b02aba85e1dd3a9006a3ee42af0ed61a0897c    trapp_start_dialog_B   
+6561  da8b02aba85e1dd3a9006a3ee42af0ed61a0897c    trapp_start_dialog_B   
+6562  da8b02aba85e1dd3a9006a3ee42af0ed61a0897c    trapp_start_dialog_B   
+6564  da8b02aba85e1dd3a9006a3ee42af0ed61a0897c    trapp_start_dialog_B   
+6566  da8b02aba85e1dd3a9006a3ee42af0ed61a0897c    trapp_start_dialog_B   
+6567  da8b02aba85e1dd3a9006a3ee42af0ed61a0897c    trapp_start_dialog_B   
+6568  da8b02aba85e1dd3a9006a3ee42af0ed61a0897c       click_play_dialog   
+6569  da8b02aba85e1dd3a9006a3ee42af0ed61a0897c    trapp_start_dialog_A   
+6573  da8b02aba85e1dd3a9006a3ee42af0ed61a0897c       click_app_setting   
+6583  da8b02aba85e1dd3a9006a3ee42af0ed61a0897c       click_record_item   
+6584  da8b02aba85e1dd3a9006a3ee42af0ed61a0897c  click_translate_dialog   
+6586  da8b02aba85e1dd3a9006a3ee42af0ed61a0897c    trapp_start_dialog_B   
+6587  da8b02aba85e1dd3a9006a3ee42af0ed61a0897c    trapp_start_dialog_B   
+6588  da8b02aba85e1dd3a9006a3ee42af0ed61a0897c    trapp_start_dialog_A   
+6590  da8b02aba85e1dd3a9006a3ee42af0ed61a0897c       click_play_dialog   
+6591  da8b02aba85e1dd3a9006a3ee42af0ed61a0897c    trapp_start_dialog_B   
+6617  da8b02aba85e1dd3a9006a3ee42af0ed61a0897c    trapp_start_dialog_B   
+6621  da8b02aba85e1dd3a9006a3ee42af0ed61a0897c  click_translate_dialog   
+6624  da8b02aba85e1dd3a9006a3ee42af0ed61a0897c    trapp_start_dialog_B   
+6625  da8b02aba85e1dd3a9006a3ee42af0ed61a0897c    trapp_start_dialog_B   
+6626  da8b02aba85e1dd3a9006a3ee42af0ed61a0897c    trapp_start_dialog_B   
+6630  da8b02aba85e1dd3a9006a3ee42af0ed61a0897c       click_app_setting   
+7314  da8b02aba85e1dd3a9006a3ee42af0ed61a0897c  click_translate_dialog   
+7315  da8b02aba85e1dd3a9006a3ee42af0ed61a0897c    trapp_start_dialog_A   
+7316  da8b02aba85e1dd3a9006a3ee42af0ed61a0897c    trapp_start_dialog_A   
+7317  da8b02aba85e1dd3a9006a3ee42af0ed61a0897c    trapp_start_dialog_A   
+7318  da8b02aba85e1dd3a9006a3ee42af0ed61a0897c    trapp_start_dialog_A   
+7319  da8b02aba85e1dd3a9006a3ee42af0ed61a0897c    trapp_start_dialog_A   
+7320  da8b02aba85e1dd3a9006a3ee42af0ed61a0897c    trapp_start_dialog_A   
+7321  da8b02aba85e1dd3a9006a3ee42af0ed61a0897c    trapp_start_dialog_A   
+7322  da8b02aba85e1dd3a9006a3ee42af0ed61a0897c       click_app_setting   
+
+                     page     op  udid                stamp  
+6548              tr_home  click   NaN  2018-06-03 06:16:19  
+6549  tr_translate_dialog  click   NaN  2018-06-03 06:16:23  
+6550  tr_translate_dialog  click   NaN  2018-06-03 06:16:39  
+6553  tr_translate_dialog  click   NaN  2018-06-03 06:16:43  
+6554  tr_translate_dialog  click   NaN  2018-06-03 06:16:51  
+6557  tr_translate_dialog  click   NaN  2018-06-03 06:16:55  
+6559  tr_translate_dialog  click   NaN  2018-06-03 06:17:13  
+6560  tr_translate_dialog  click   NaN  2018-06-03 06:17:33  
+6561  tr_translate_dialog  click   NaN  2018-06-03 06:17:37  
+6562  tr_translate_dialog  click   NaN  2018-06-03 06:17:41  
+6564  tr_translate_dialog  click   NaN  2018-06-03 06:17:49  
+6566  tr_translate_dialog  click   NaN  2018-06-03 06:17:53  
+6567  tr_translate_dialog  click   NaN  2018-06-03 06:18:09  
+6568  tr_translate_dialog  click   NaN  2018-06-03 06:18:15  
+6569  tr_translate_dialog  click   NaN  2018-06-03 06:18:19  
+6573              tr_home  click   NaN  2018-06-03 06:18:57  
+6583              tr_home  click   NaN  2018-06-03 06:19:39  
+6584              tr_home  click   NaN  2018-06-03 06:19:43  
+6586  tr_translate_dialog  click   NaN  2018-06-03 06:19:49  
+6587  tr_translate_dialog  click   NaN  2018-06-03 06:20:11  
+6588  tr_translate_dialog  click   NaN  2018-06-03 06:20:23  
+6590  tr_translate_dialog  click   NaN  2018-06-03 06:20:37  
+6591  tr_translate_dialog  click   NaN  2018-06-03 06:20:39  
+6617  tr_translate_dialog  click   NaN  2018-06-03 06:22:19  
+6621              tr_home  click   NaN  2018-06-03 06:22:45  
+6624  tr_translate_dialog  click   NaN  2018-06-03 06:23:25  
+6625  tr_translate_dialog  click   NaN  2018-06-03 06:23:37  
+6626  tr_translate_dialog  click   NaN  2018-06-03 06:23:51  
+6630              tr_home  click   NaN  2018-06-03 06:24:15  
+7314              tr_home  click   NaN  2018-06-03 07:22:15  
+7315  tr_translate_dialog  click   NaN  2018-06-03 07:22:19  
+7316  tr_translate_dialog  click   NaN  2018-06-03 07:22:23  
+7317  tr_translate_dialog  click   NaN  2018-06-03 07:22:33  
+7318  tr_translate_dialog  click   NaN  2018-06-03 07:22:47  
+7319  tr_translate_dialog  click   NaN  2018-06-03 07:22:53  
+7320  tr_translate_dialog  click   NaN  2018-06-03 07:23:05  
+7321  tr_translate_dialog  click   NaN  2018-06-03 07:23:19  
+7322              tr_home  click   NaN  2018-06-03 07:23:39  
+-----------------
+Empty DataFrame
+Columns: [device_id, tag, page, op, udid, stamp]
+Index: []
+-----------------
+                                     device_id          tag     page    op  \
+1004  e7f174fe96614a826e932e09d71b1b14a736a8c5  app_startup  tr_init  auto   
+
+      udid                stamp  
+1004   NaN  2018-06-02 23:27:57  
+-----------------
+Empty DataFrame
+Columns: [device_id, tag, page, op, udid, stamp]
+Index: []
+-----------------
+                                     device_id          tag     page    op  \
+3334  e99b3ec9ab60043b965ef436a79c0bd070140adb  app_startup  tr_init  auto   
+
+      udid                stamp  
+3334   NaN  2018-06-03 03:08:32  
+-----------------
+Empty DataFrame
+Columns: [device_id, tag, page, op, udid, stamp]
+Index: []
+-----------------
+                                      device_id                   tag  \
+12167  f1ba651e57e95daa0f27203ff55feb2d76d4091a           app_startup   
+12168  f1ba651e57e95daa0f27203ff55feb2d76d4091a     click_app_setting   
+12171  f1ba651e57e95daa0f27203ff55feb2d76d4091a  click_guidance_using   
+12175  f1ba651e57e95daa0f27203ff55feb2d76d4091a     click_app_setting   
+12178  f1ba651e57e95daa0f27203ff55feb2d76d4091a     click_app_setting   
+
+                page     op  udid                stamp  
+12167        tr_init   auto   NaN  2018-06-03 10:59:13  
+12168        tr_home  click   NaN  2018-06-03 10:59:15  
+12171  tr_other_page  click   NaN  2018-06-03 10:59:17  
+12175        tr_home  click   NaN  2018-06-03 10:59:21  
+12178  tr_other_page  click   NaN  2018-06-03 10:59:23  
+-----------------
+                                     device_id                     tag  \
+1024  f3711a089113013cfc40384df226d630502916af             app_startup   
+1025  f3711a089113013cfc40384df226d630502916af  click_connection_intro   
+
+         page     op  udid                stamp  
+1024  tr_init   auto   NaN  2018-06-02 23:35:40  
+1025  tr_home  click   NaN  2018-06-02 23:35:48  
+-----------------
+Empty DataFrame
+Columns: [device_id, tag, page, op, udid, stamp]
+Index: []
+-----------------
+[Finished in 1.7s]
